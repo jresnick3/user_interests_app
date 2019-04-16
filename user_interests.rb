@@ -21,7 +21,7 @@ get "/" do
   redirect "/users"
 end
 
-get "/user" do
+get "/users" do
   erb :names
 end
 
